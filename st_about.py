@@ -26,7 +26,6 @@ def run_about():
             '''
           )
     st.write(md)
-    st.subheader(''':blue[ Please click through the menu on the left for a deep dive in to this analysis] ''')
 
     st.divider()
 
@@ -38,3 +37,5 @@ def run_about():
     st.image("explora_fig_11.png")
     st.divider()
 
+    st.subheader(''':blue[ Please click through the menu on the left for a deep dive in to this analysis] ''')
+    st.divider()
