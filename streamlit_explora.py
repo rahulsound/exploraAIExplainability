@@ -26,7 +26,7 @@ def run():
 
     choice = st.sidebar.radio("Menu", menu)
     if choice == "Synthesis":
-        st.title("Synthesis")
+        #st.title("Synthesis")
         run_synthesis()
     elif choice == "Statistical Analysis":
         st.header("Statistical Analysis")
