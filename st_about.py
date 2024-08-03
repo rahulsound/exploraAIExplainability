@@ -3,7 +3,7 @@ import streamlit as st
 
 def run_about():
     #Run Deep Dives Analysis
-    st.write("Analysis compiled by [Rahul Soundrarajan](https://rahulsound.streamlit.app/) using [Streamlit](https://streamlit.io/)" )
+    st.write("Research and Analysis compiled by [Rahul Soundrarajan](https://rahulsound.streamlit.app/) using [Streamlit](https://streamlit.io/)" )
 
     st.divider()
 
