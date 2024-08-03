@@ -1,5 +1,4 @@
 import streamlit as st
-st.set_page_config(page_title="Explora | Statistical Analysis", layout="wide")
 
 
 def run_statistical_analysis():
