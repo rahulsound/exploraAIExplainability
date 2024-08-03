@@ -1,0 +1,7 @@
+﻿Dataset,Radar Type,Data Type,Annotation,Link
+CRUW,TI AWR1843 Ultra Short Range,RA,Pointlevel Object,https://www.cruwdataset.org/home
+CARRADA,TI AWR1843 Short Range,"RA,RD,RAD","Pointwise, 2D bbox, Mask",https://arthurouaknine.github.io/codeanddata/carrada
+RADDet,TI AWR1843,RAD,3D bbox for RAD tensor,https://github.com/ZhangAoCanada/RADDet
+RaDICaL,TI IWR1443,ADC,2D bbox,https://radar-scenes.com/
+GhentVRU,TI AWR1243 Short Range,RAD,Segmentation Mask for VRUs,https://ieeexplore.ieee.org/document/9294399
+RAMP-CNN,TI AWR 1843,ADC,2D bbox,https://github.com/Xiangyu-Gao/Raw_ADC_radar_dataset_for_automotive_object_detection

@@ -1,0 +1,18 @@
+﻿S.No,Description,Reference
+1,Radar-Camera Sensor Fusion for Joint Object Detection and Distance Estimation in Autonomous Vehicles,https://arxiv.org/pdf/2009.08428.pdf
+2,Distant Vehicle Detection Using Radar and Vision,https://arxiv.org/pdf/1901.10951.pdf
+3,University of Washington | Experiments with mmWave Automotive RadarTest-bed,https://arxiv.org/pdf/1912.12566.pdf
+,,https://github.com/Xiangyu-Gao/mmWave-radar-signal-processing-and-microDoppler-classification
+4,RADIal,https://openaccess.thecvf.com/content/CVPR2022/papers/Rebut_Raw_High-Definition_Radar_for_Multi-Task_Learning_CVPR_2022_paper.pdf
+,,https://github.com/valeoai/RADIal
+5,UW RODNet,RODNet: Radar Object Detection using Cross-Modal Supervision
+,,https://arxiv.org/pdf/2003.01816.pdf
+,,https://github.com/yizhou-wang/RODNet
+,,https://www.cruwdataset.org/
+6,"Deep Radar Detection  (GM , University of Tel-Aviv)",https://arxiv.org/ftp/arxiv/papers/1906/1906.12187.pdf
+7,PERCEPTION THROUGH 2D-MIMO FMCW AUTOMOTIVE RADAR UNDER ADVERSE WEATHER | University of Washington (Sumit Roy),https://arxiv.org/pdf/2104.01639.pdf
+8,RaDICaL,https://publish.illinois.edu/radicaldata/download/
+,,https://github.com/moodoki/radical_sdk
+,,https://github.com/moodoki/iwr_raw_rosnode
+9,Oxford Radar Robocar dataset,https://oxford-robotics-institute.github.io/radar-robotcar-dataset/examples
+10,Brandeis University (Exploiting Temporal Relations on Radar Perception for Autonomous Driving),https://arxiv.org/pdf/2204.01184.pdf

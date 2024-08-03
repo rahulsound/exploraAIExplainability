@@ -1,0 +1,6 @@
+﻿Dataset,Radar Type,Data Type,Annotation,Link
+Astyx Hires2019,Astyx 6455 HiRes Middel Range,PC,3D bbox,https://github.com/under-the-radar/radar_dataset_astyx
+View-of-Delft,ZF FRGen21 Short Range,PC,3D bbox,https://intelligent-vehicles.org/datasets/view-of-delft/
+RADIal,Valeo Middel Range DDM,"ADC,RAD,PC",Point-level Vehicle; Open Space Mask,https://github.com/valeoai/RADIal
+TJ4DRadSet,Oculii Eagle Long Range,PC,"3D bbox, TrackID",https://github.com/TJRadarLab/TJ4DRadSet
+K-Radar,Macnica RETINA,RAD,"3D bbox, Track ID",https://github.com/kaist-avelab/K-Radar
