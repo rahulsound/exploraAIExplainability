@@ -17,7 +17,7 @@ st.set_page_config(page_title="Explora: AI Explainability", layout="wide")
         
 def run():
     
-    st.title("Explora AI Explainability")
+    st.title("EXPLORA AI Explainability for O-RAN - A deeper analysis")
 
     menu = ["About",
             "Synthesis", 
@@ -36,7 +36,7 @@ def run():
         st.subheader("ML Modeling:")
         run_ai_model()
     else:
-        st.subheader("About:")
+        #st.subheader("About:")
         run_about()
         
 
