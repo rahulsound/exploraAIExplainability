@@ -21,7 +21,7 @@ def run():
     menu = ["About",
             "Synthesis", 
             "Statistical Analysis",
-            "AI Model" 
+            "ML Modeling" 
             ]
 
     choice = st.sidebar.radio("Menu", menu)
@@ -31,8 +31,8 @@ def run():
     elif choice == "Statistical Analysis":
         st.header("Statistical Analysis")
         run_statistical_analysis()
-    elif choice == "AI Model":
-        st.header("AI Modeling:")
+    elif choice == "ML Modeling":
+        st.header("ML Modeling:")
         run_ai_model()
     else:
         #st.header("About")

@@ -52,3 +52,12 @@ def run_statistical_analysis():
     st.write(md)
     st.divider()
 
+    st.markdown(''':blue[**4. Use Pairplots to compare KPIs for different UEs - consider URLLF-TRF1 for slice-0 as an example:**] ''')
+    st.image('paripolts_for_3_6UEs.png')
+    st.write("**Observations:**")
+    md = ('''
+            - The Pairplot also confirms that KPI variance doesn't change significantly with number of UEs in the system.
+        ''')
+    st.write(md)
+    st.divider()
+    
