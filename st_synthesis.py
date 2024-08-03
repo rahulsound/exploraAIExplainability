@@ -73,3 +73,5 @@ def run_synthesis():
             - For slice_1 and slice_2, some predictability is possible (linear regression line) but not for slice_0
         ''')
     st.write(md)
+
+    st.divider()
