@@ -1,9 +1,10 @@
 import streamlit as st
+st.set_page_config(page_title="Explora | Synthesis", layout="wide")
 
 
 def run_synthesis():
     #run_synthesis
-    st.header("This pages lists several observations in Q'nA format:")
+    # st.header("This pages lists several observations in Q'nA format:")
 
     st.divider()
 

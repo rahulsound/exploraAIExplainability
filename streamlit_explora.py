@@ -13,6 +13,7 @@ from st_statistical_analysis import run_statistical_analysis
 from st_ai_model import run_ai_model
 from st_about import run_about
 
+st.set_page_config(page_title="Explora: AI Explainability", layout="wide")
         
 def run():
     
@@ -26,16 +27,16 @@ def run():
 
     choice = st.sidebar.radio("Menu", menu)
     if choice == "Synthesis":
-        #st.title("Synthesis")
+        st.subheader("Synthesis:")
         run_synthesis()
     elif choice == "Statistical Analysis":
-        st.header("Statistical Analysis")
+        st.subheader("Statistical Analysis")
         run_statistical_analysis()
     elif choice == "ML Modeling":
-        st.header("ML Modeling:")
+        st.subheader("ML Modeling:")
         run_ai_model()
     else:
-        #st.header("About")
+        st.subheader("About:")
         run_about()
         
 
