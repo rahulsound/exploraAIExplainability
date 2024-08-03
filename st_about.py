@@ -3,7 +3,7 @@ import streamlit as st
 
 def run_about():
     #Run Deep Dives Analysis
-    st.subheader("About:")
+#     st.subheader("About:")
 
     st.divider()
 
@@ -25,6 +25,7 @@ def run_about():
           3. Based on the above points, develop a new AI model that makes it possible to predict the effect the actions with statistical confidence.
             '''
           )
+    st.subheader(''':blue[ Please click through the menu on the left for a deep dive in to this analysis] ''')
     st.write(md)
 
     st.divider()
