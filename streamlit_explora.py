@@ -19,6 +19,7 @@ def run():
     
     st.title("EXPLORA")
     st.subheader("AI/ML EXplainability for O-RAN - A deeper analysis:")
+    st.divider()
 
     menu = ["About",
             "Synthesis", 

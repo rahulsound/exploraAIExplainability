@@ -5,7 +5,7 @@ def run_statistical_analysis():
     #run_statistical_analysis
     # st.header("This pages lists several observations in Q'nA format:")
 
-    st.divider()
+    # st.divider()
 
     st.subheader("Question: Compare the distribution of KPIs for one agent - say URLLC-TRF1 for varying number of UEs:")
 

@@ -2,7 +2,7 @@ import streamlit as st
 
 
 def run_ai_model():
-    st.header("This pages lists several observations in Q'nA format:")
+    st.subheader("This pages lists several observations in Q'nA format:")
 
     st.divider()
 
