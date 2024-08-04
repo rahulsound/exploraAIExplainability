@@ -30,21 +30,20 @@ def run():
     choice = st.sidebar.radio("Menu", menu)
     if choice == "Synthesis":
         #st.subheader("Synthesis:")
-        st.divider()
+        #st.divider()
         st.write(":blue[This page attempts to synthesise the available data in Q'nA format to help guide the interpretations... ]")
         st.divider()
-
         run_synthesis()
     elif choice == "Statistical Analysis":
         #st.subheader("Statistical Analysis:")
-        st.divider()
+        #st.divider()
         st.write(":blue[This page attempts to perform statsitical analysis on the available data in Q'nA format to help guide various aspects related to data [distribution, sufficiency, etc.].] ")
         st.divider()
 
         run_statistical_analysis()
     elif choice == "ML Modeling":
         #st.subheader("ML Modeling:")
-        st.divider()
+        #st.divider()
         st.write(":blue[This page attempts to guide ML model development in Q'nA format to help guide the model building and subsquent interpretations...] ")
         st.divider()
         run_ai_model()
