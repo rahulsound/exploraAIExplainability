@@ -15,6 +15,13 @@ def run_play_with_data():
     st.subheader("")
     combo = pd.read_csv('combo.csv')
     c1 = combo[[ 'count_norm', 'tx_brate_norm', 'tx_pkts_norm', 'dl_buffer_norm', 'slice', 'agent']]
+    st.write('Data to be analyzed: df.describe()')
+    st.write(c1.describe())
+    st.divider()
+    st.write('Sample preview of data: df.sample(10) | Note, first column is the index of dataframe')
+    st.write(c1.sample(10))
+    st.divider()
+    
     dfx = c1['agent'].value_counts()
     st.subheader('Count of samples per agent: ')
     st.bar_chart(dfx, width=400)
@@ -28,8 +35,9 @@ def run_play_with_data():
             'slice'     : slice IDs: [0,1,2]
             'agent'     : agents: ['embb-trf1', 'embb-trf2', 'urllc-trf1', 'urllc-trf1'  ]
             ''', language='python') 
-    feature_x = st.selectbox('Select feature for x axis', c1.columns)
-    feature_y = st.selectbox('Select feature for y axis', c1.columns)   
+
+    feature_x = st.selectbox('Select feature for x axis', [ 'dl_buffer_norm', 'count_norm', 'tx_brate_norm', 'tx_pkts_norm', 'slice', 'agent'])
+    feature_y = st.selectbox('Select feature for y axis', [ 'tx_pkts_norm', 'tx_brate_norm', 'count_norm', 'dl_buffer_norm', 'slice', 'agent'])   
     feature_z = st.selectbox('Select the split-by criterion: [slice, agent]', ['slice', 'agent'])
 
     fig, ax = plt.subplots(figsize=(4, 4))
