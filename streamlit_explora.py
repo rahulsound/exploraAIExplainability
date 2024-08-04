@@ -12,6 +12,7 @@ from st_synthesis import run_synthesis
 from st_statistical_analysis import run_statistical_analysis
 from st_ai_model import run_ai_model
 from st_about import run_about
+from st_play_with_data import run_play_with_data
 
 st.set_page_config(page_title="Explora: AI Explainability", layout="wide")
         
@@ -24,7 +25,8 @@ def run():
     menu = ["About",
             "Synthesis", 
             "Statistical Analysis",
-            "ML Modeling" 
+            "ML Modeling",
+            "Play with data" 
             ]
 
     choice = st.sidebar.radio("Menu", menu)
@@ -39,7 +41,6 @@ def run():
         #st.divider()
         st.write(":blue[This page attempts to perform statsitical analysis on the available data in Q'nA format to help guide various aspects related to data [distribution, sufficiency, etc.].] ")
         st.divider()
-
         run_statistical_analysis()
     elif choice == "ML Modeling":
         #st.subheader("ML Modeling:")
@@ -47,6 +48,12 @@ def run():
         st.write(":blue[This page attempts to guide ML model development in Q'nA format to help guide the model building and subsquent interpretations...] ")
         st.divider()
         run_ai_model()
+    elif choice == "Play with data":
+        #st.subheader("ML Modeling:")
+        #st.divider()
+        st.write(":blue[This page provides an interactive way of exploring the data] ")
+        st.divider()
+        run_play_with_data()
     else:
         #st.subheader("About:")
         run_about()
