@@ -18,7 +18,7 @@ st.set_page_config(page_title="Explora: AI Explainability", layout="wide")
 def run():
     
     st.title("EXPLORA")
-    st.subheader("AI/ML EXplainability for O-RAN - A deeper analysis")
+    st.subheader("AI/ML EXplainability for O-RAN - A deeper analysis:")
 
     menu = ["About",
             "Synthesis", 
@@ -29,12 +29,15 @@ def run():
     choice = st.sidebar.radio("Menu", menu)
     if choice == "Synthesis":
         st.subheader("Synthesis:")
+        st.divider()
         run_synthesis()
     elif choice == "Statistical Analysis":
-        st.subheader("Statistical Analysis")
+        st.subheader("Statistical Analysis:")
+        st.divider()
         run_statistical_analysis()
     elif choice == "ML Modeling":
         st.subheader("ML Modeling:")
+        st.divider()
         run_ai_model()
     else:
         #st.subheader("About:")
