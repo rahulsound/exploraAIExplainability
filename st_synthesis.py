@@ -5,9 +5,6 @@ def run_synthesis():
     #run_synthesis
     # st.header("This pages lists several observations in Q'nA format:")
 
-    st.write("This page attempts to synthesise the available data in Q'nA format to help guide the interpretations... ")
-    st.divider()
-
     st.subheader("Question: Are there any favourite states for the agent?")
     st.divider()
 

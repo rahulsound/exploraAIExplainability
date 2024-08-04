@@ -2,10 +2,6 @@ import streamlit as st
 
 
 def run_ai_model():
-    st.subheader("This pages lists several observations in Q'nA format:")
-
-    st.divider()
-
     st.subheader("Question: Analyse the distribution of KPIs per slice, per agent for different number of UEs:")
 
     st.markdown(''':blue[**Note the number of dimensions to plot:**]
