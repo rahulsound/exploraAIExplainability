@@ -2,3 +2,4 @@ streamlit_option_menu
 matplotlib==3.9.1
 seaborn==0.13.2
 pandas
+plotly
