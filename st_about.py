@@ -7,7 +7,7 @@ def run_about():
 
     st.divider()
 
-    st.subheader('The deep-dive presented here is based on the Explora Project: https://github.com/wineslab/explora')
+    st.markdown('#### The deep-dive presented here is based on the Explora Project: https://github.com/wineslab/explora')
 
     md = (''' 
           EXPLORA: AI/ML EXPLainability for the Open RAN
