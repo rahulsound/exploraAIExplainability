@@ -8,7 +8,6 @@ def run_about():
     st.divider()
 
     st.markdown('#### The deep-dive presented here is based on the Explora Project: https://github.com/wineslab/explora')
-
     md = (''' 
           EXPLORA: AI/ML EXPLainability for the Open RAN
           Claudio Fiandrino, Leonardo Bonati, Salvatore d'Oro, Michele Polese, Tommaso Melodia, Joerg Widmer
@@ -37,5 +36,5 @@ def run_about():
     st.image("explora_fig_11.png")
     st.divider()
 
-    st.subheader(''':blue[ Please click through the menu on the left for a deep dive in to this analysis] ''')
+    st.markdown('''#### :blue[ Please click through the menu on the left for a deep dive in to this analysis] ''')
     st.divider()
