@@ -36,5 +36,5 @@ def run_about():
     st.image("explora_fig_11.png")
     st.divider()
 
-    st.markdown('''#### :blue[ Please click through the menu on the left for a deep dive in to this analysis] ''')
+    st.markdown('''#### :blue[ Please click through the menu on the left for a deep dive] ''')
     st.divider()
